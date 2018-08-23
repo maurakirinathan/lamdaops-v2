@@ -732,7 +732,7 @@ ul.tag-cloud li {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #21a6d8;
     content: '';
     opacity: 0;
     -webkit-transition: opacity .3s 0 .3s;
@@ -794,7 +794,7 @@ ul.tag-cloud li {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #21a6d8;
     content: '';
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
@@ -860,7 +860,7 @@ ul.tag-cloud li {
 
 .opaqued {
     padding: 10px 0;
-    background-color:#337ab7;
+    background-color:#202020;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
