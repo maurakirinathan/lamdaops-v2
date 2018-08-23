@@ -40,11 +40,39 @@
         }
 
     </style>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            'use strict';
+            jQuery('body').backstretch([
+                "images/bg/bg1.jpg",
+                "images/bg/b7.jpeg",
+                "images/bg/b8.jpeg"
+            ], {duration: 5000, fade: 500, centeredY: true });
+
+            $("#mapwrapper").gMap({ controls: false,
+                scrollwheel: false,
+                markers: [{
+                    latitude:40.7566,
+                    longitude: -73.9863,
+                    icon: { image: "images/marker.png",
+                        iconsize: [44,44],
+                        iconanchor: [12,46],
+                        infowindowanchor: [12, 0] } }],
+                icon: {
+                    image: "images/marker.png",
+                    iconsize: [26, 46],
+                    iconanchor: [12, 46],
+                    infowindowanchor: [12, 0] },
+                latitude:40.7566,
+                longitude: -73.9863,
+                zoom: 14 });
+        });
+    </script>
 
 </head>
 
 <body>
-<canvas></canvas>
+<!--<canvas></canvas>-->
 
 <div id="preloader"></div>
 <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
@@ -87,12 +115,13 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content center centered">
-                                <!--                <span class="home-icon pe-7s-gleam bounce-in"></span>-->
-                                <h2 class="boxed animation animated-item-1 fade-down">Connecting the dots…</h2>
-
-
+                                <span class="home-icon pe-7s-gleam bounce-in"></span>
+                                <h2 class="boxed animation animated-item-1 fade-down">Be simple... look stylish…</h2>
+                                <p class="boxed animation animated-item-2 fade-up">"Everything should be made as simple as possible, but not simpler"
+                                    - Albert eninstine</p>
+                                <br>
+                        <!--        <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>-->
                             </div>
-
                         </div>
                     </div>
                 </div>
