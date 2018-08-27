@@ -54,7 +54,7 @@ h6 {
 }
 
 a {
-    color: #222;
+    color: #000000;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
     -o-transition: 300ms;
@@ -82,7 +82,7 @@ hr {
 
 a:hover,
 a:focus {
-    color: #d9534f;
+    color: #1d9912;
     text-decoration: none;
     outline: none;
 }
